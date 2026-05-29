@@ -1,0 +1,73 @@
+---
+title: "Data Collection and Analysis"
+format: html
+editor: visual
+---
+
+## **Common Data Resources in Political Science**
+
+This section (borrowed from @pownerEmpiricalResearchWriting2026) contains an extensive collection of dataset links. If you can imagine it, there’s a VERY good chance someone else has already collected data on it, and one of these sites has a link to it. If you’re struggling to find appropriate data, let me know.
+
+### **University Libraries**
+
+<https://guides.libraries.emory.edu/main/Data_Services/govinstlinks> (Also their US States page)
+
+<https://guides.lib.umich.edu/?b=s>  Hundreds of field-specific guides to research data; use the Search tool for easiest access
+
+<https://libguides.princeton.edu/politics/data> – good collection of data for beginners
+
+### **Cross-Subfield**
+
+[www.poliscidata.com](http://www.poliscidata.com/) Barry Edwards has an INCREDIBLE collection of data sets from across the field, organized by subfield and topic. If you know what you want, this is the place to go.
+
+<https://dataverse.harvard.edu/> Data archive. Contains both article data (often organized by publication name) and archives for larger or longer-running data collection programs.
+
+<https://datasetsearch.research.google.com/> Google has a dataset search tool. It’s NOT my favorite, but if you are looking for a unique piece of data or something from outside conventional political science themes, this may be helpful. (Recommended for more advanced users.)
+
+Dataset with Political Datasets <https://github.com/erikgahner/PolData> Databases catalogued by content and links. Collection of cross-national election studies, cabinet data, political institutions, constitutions, parties & politicians, governance, economics, and more
+
+### **American Politics**
+
+<https://electionstudies.org/> – The American National Election Studies datasets are the gold standard for US political behavior, with 75 years of data and nearly 10,000 citations. Most people start with the question search tool. Much data available for political psychology, race & politics, and attitudes towards public figures, groups and issues.
+
+Cooperative Election Study (Formerly Cooperative Congressional Election Study)
+
+<https://tischcollege.tufts.edu/research-faculty/research-centers/cooperative-election-study> Starting in 2006, the study captures large numbers of Americans (think 50,000 respondents a year) before and after each national election. Besides a common content module asked of all respondents, teams of researchers add additional thematic modules that typically get asked of 1,000-2,000 respondents. Many unique theme modules thus exist in this data, though it’s a bit more difficult to navigate.
+
+State Politics & Policy Quarterly data resource [https://web.archive.org/web/20150311202414/https://academic.udayton.edu/SPPQ-TPR/tpr_data_sets.html](https://web.archive.org/web/20150311202414/https:/academic.udayton.edu/SPPQ-TPR/tpr_data_sets.html)
+
+Correlates of State Policy <https://ippsr.msu.edu/public-policy/correlates-state-policy> State policy adoptions and changes over time, plus associated state-level variables
+
+State Ideology Data: <https://rcfording.wordpress.com/state-ideology-data/>
+
+### **Non-US and Comparative Politics**
+
+Varieties of Democracy (V-Dem) <https://www.v-dem.net/> WAY more than just democracy – all sorts of political and economic institution data in one place. Often the first stop for building cross-national datasets.
+
+Polity <https://www.systemicpeace.org/> The baseline institutional measure of democracy for decades. Data stop around 2020 for technical reasons.
+
+Comparative Agendas Project <https://www.comparativeagendas.net/> What are the hot political issues in various countries and US states over time? Only a few US states have their own data, but lots of cool country-based data.
+
+Database of Political Institutions (Interamerican Development Bank) <https://data.iadb.org/dataset/the-database-of-political-institutions-dpi-2020> Publicly accessible, 45 years, 180 countries
+
+<https://github.com/erikgahner/PolData> Collection of cross-national election studies, cabinet data, political institutions, constitutions, parties & politicians, governance, economics, and more
+
+Comparative Study of Electoral Systems <https://cses.org/> National electoral studies designed to be comparable. Includes most moderately or fully democratic countries.
+
+National Elections Across Democracy and Autocracy (NELDA) <http://nelda.co/> Data organized by election round for all recognized countries in the world. Data access by (very simple) request.
+
+### **International Relations**
+
+THOUSANDS of specialized IR datasets exist. [https://github.com/erikgahner/PolData and Poliscidata.com](https://github.com/erikgahner/PolData%20and%20Poliscidata.com) catalog many titles thematically.
+
+Design of International Trade Agreements (DESTA) <https://www.designoftradeagreements.org/downloads/> Treaties list, withdrawals, agreement content
+
+Alliance Treaty Obligations Project (ATOP) <http://www.atopdata.org/> All military alliances formed between 1815-2018 along with their provisions; \[NEWGENE replacement\] allows easy combination with conflict data
+
+Cignarelli-Richardson Human Rights Data (CIRI) – <https://dataverse.harvard.edu/dataverse/cirihumanrightsdata>  The most respected non-governmental measurement of human rights
+
+Correlates of War project (COW) <https://correlatesofwar.org/> best known for war data, militarized interstate disputes (MIDs), and national material capabilities, but many other security related topics are available (contiguity, defense cooperation, shared international organization membership, etc.)
+
+Global Terrorism Database <https://www.start.umd.edu/data-tools/GTD> domestic & transnational terrorism
+
+International Crisis Behavior Events – <https://www.crisisevents.org/> crises smaller than wars or militarized interstate disputes Social Conflict Analysis Database (SCAD) – Africa & Latin America/Caribbean; riots, strikes, protests, government violence against civilians.

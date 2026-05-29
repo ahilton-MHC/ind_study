@@ -1,0 +1,7 @@
+---
+title: "From Topic to Question"
+format: html
+editor: visual
+---
+
+If social scientists' ultimate goal is to explain the social and political world, it's unsurprising that research projects typically spring from a problem or puzzle that initially defies explanation.

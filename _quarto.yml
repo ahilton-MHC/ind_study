@@ -1,0 +1,44 @@
+project:
+  type: book
+
+number-depth: 1
+
+book:
+  title: "MHC in DC Independent Study Guide"
+  subtitle: "Fall 2026"
+  sidebar:
+    style: docked
+    background: light
+  page-navigation: true
+  page-footer: "MHC in DC Indepedent Study"
+  favicon: logo.png
+  image: logo.png
+  cover-image: logo.png
+  downloads: [pdf, epub]
+  search: true
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - topic_to_question.qmd
+    - lit_review.qmd
+    - theory_and_hypothesis.qmd
+    - research_design.qmd
+    - research_proposal.qmd
+    - data_collection_analysis.qmd
+    - findings_and_implications.qmd
+    - research_paper.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+  pdf:
+    documentclass: scrreprt
+
+
+editor: visual
+

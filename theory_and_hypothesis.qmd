@@ -1,0 +1,23 @@
+---
+title: "Theory and Hypotheses"
+format: html
+editor: visual
+---
+
+## Introduction
+
+Whether we consciously realize it or not, we humans engage with our everyday surroundings by constantly constructing, deploying, and revising mental models of how the world works. These models may be flawed, incomplete, or even downright wrong. Nevertheless, so long as they prove useful for our particular purpose, we continue to use them.
+
+Social scientists concerned with explaining how aspects of the social and political world works build models too. Unlike most of the mental models we walk around with unconsciously, social scientists must make their models explicit by articulating **theories**, expressed in the form of either words, diagrams, mathematics, or all of the above.
+
+Simply put, theories are just relationships between concepts, linked together by a set of assumptions made explicit by whomever is building the model. As such, theories are neither true nor false in themselves—no more so than a painting or a subway map is true or false. A model is simply a representation of reality, designed with a particular purpose in mind [@clarkeModelDisciplinePolitical2012]. A Picasso-style portrait, though visually appealing, will not work for a passport photo. Nor will a subway map be very useful if you are navigating a city on foot.
+
+\<Picasso and subway map images side by side\>
+
+The usefulness of any particularly theory is found in how well it helps us explain the empirical phenomena it predicts. Which theory is more likely given the evidence?
+
+In short, a theory is a proposed answer to a research question. Theory development is the process of "identifying numerous potential explanations \[to your question\] and then sifting through them to find the one that you feel is the most likely or strongest explanation of the phenomenon" [@pownerEmpiricalResearchWriting2026 p. 34].
+
+We address theory development and hypothesis formation together in this chapter because they so often go hand-in-hand during actual research.
+
+## Visualizing theory with DAGs
