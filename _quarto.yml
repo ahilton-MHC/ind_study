@@ -14,7 +14,7 @@ book:
   favicon: logo.png
   image: logo.png
   cover-image: logo.png
-  downloads: [pdf, epub]
+  downloads: [pdf, docx]
   search: true
   chapters:
     - index.qmd
@@ -36,9 +36,10 @@ format:
     theme:
       - cosmo
       - brand
-  pdf:
-    documentclass: scrreprt
-
+  epub:
+    cover-image: logo.png
+  typst:
+    theme: default
 
 editor: visual
 

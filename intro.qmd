@@ -4,7 +4,7 @@
 
 Let's start by taking a bird's eye view of this semester's research project as a whole. @fig-workflow displays a diagram representing the research workflow, starting and ending with the state of existing knowledge.
 
-![The research workflow](research_workflow.png){#fig-workflow .fig-workflow fig-align="center"}
+![The research workflow](research_workflow.png){#fig-workflow .fig-workflow fig-align="center" width="11in"}
 
 There's a lot going on in this diagram, so let's explain it piece by piece. The blue-shaded bubbles represent distinct stages of the research process. The solid arrows trace a clockwise workflow from **topic** in the top-right corner to **findings and implications** near the top-left. The dashed arrows trace a counter-clockwise workflow back through the stages. This is meant to capture that although the workflow looks chronological, real-world research typically iterates back and forth between stages, recursively revising and refining previous stages as we move forward to new ones.
 
