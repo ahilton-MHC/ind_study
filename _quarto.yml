@@ -1,11 +1,12 @@
 project:
   type: book
 
-number-depth: 1
+number-depth: 2
 
 book:
   title: "MHC in DC Independent Study Guide"
   subtitle: "Fall 2026"
+  author: "Adam Hilton"
   sidebar:
     style: docked
     background: light
@@ -24,6 +25,7 @@ book:
     - theory_and_hypothesis.qmd
     - research_design.qmd
     - research_proposal.qmd
+    - proposal_to_paper.qmd
     - data_collection_analysis.qmd
     - findings_and_implications.qmd
     - research_paper.qmd

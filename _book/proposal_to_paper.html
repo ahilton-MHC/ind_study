@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>1&nbsp; Introduction: The Big Picture – MHC in DC Independent Study Guide</title>
+<title>7&nbsp; From Proposal to Paper – MHC in DC Independent Study Guide</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -23,26 +23,7 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for citations */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
-}
-.hanging-indent div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
-}
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
-}
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}</style>
+</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -52,8 +33,8 @@ div.csl-indent {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./topic_to_question.html" rel="next">
-<link href="./index.html" rel="prev">
+<link href="./data_collection_analysis.html" rel="next">
+<link href="./research_proposal.html" rel="prev">
 <link href="./logo.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
@@ -93,35 +74,6 @@ div.csl-indent {
   }
 }</script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
@@ -134,7 +86,7 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./intro.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction: The Big Picture</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./proposal_to_paper.html"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">From Proposal to Paper</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -186,7 +138,7 @@ window.Quarto = {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./intro.html" class="sidebar-item-text sidebar-link active">
+  <a href="./intro.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction: The Big Picture</span></span></a>
   </div>
 </li>
@@ -222,7 +174,7 @@ window.Quarto = {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./proposal_to_paper.html" class="sidebar-item-text sidebar-link">
+  <a href="./proposal_to_paper.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">From Proposal to Paper</span></span></a>
   </div>
 </li>
@@ -255,30 +207,15 @@ window.Quarto = {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Table of contents</h2>
-   
-  <ul>
-  <li><a href="#the-logic-of-social-science-inference-to-the-best-explanation" id="toc-the-logic-of-social-science-inference-to-the-best-explanation" class="nav-link active" data-scroll-target="#the-logic-of-social-science-inference-to-the-best-explanation"><span class="header-section-number">1.1</span> The logic of social science: inference to the best explanation</a>
-  <ul class="collapse">
-  <li><a href="#social-scientific-reasoning" id="toc-social-scientific-reasoning" class="nav-link" data-scroll-target="#social-scientific-reasoning">Social scientific reasoning</a></li>
-  </ul></li>
-  <li><a href="#the-research-project-workflow" id="toc-the-research-project-workflow" class="nav-link" data-scroll-target="#the-research-project-workflow"><span class="header-section-number">1.2</span> The research project workflow</a>
-  <ul class="collapse">
-  <li><a href="#inference-is-the-goal" id="toc-inference-is-the-goal" class="nav-link" data-scroll-target="#inference-is-the-goal">Inference is the goal</a></li>
-  <li><a href="#inference-and-explanation" id="toc-inference-and-explanation" class="nav-link" data-scroll-target="#inference-and-explanation">Inference and explanation</a></li>
-  <li><a href="#a-pluralist-methodology" id="toc-a-pluralist-methodology" class="nav-link" data-scroll-target="#a-pluralist-methodology">A pluralist methodology</a></li>
-  </ul></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction: The Big Picture</span></h1>
+<h1 class="title"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">From Proposal to Paper</span></h1>
 </div>
 
 
@@ -295,220 +232,8 @@ window.Quarto = {
 </header>
 
 
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>Chapter learning goals
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<ul>
-<li>Consider the logic of social science as inference to the best explanation</li>
-<li>Develop an overview of the research project workflow</li>
-<li>Appreciate the strengths and limitations of social science research</li>
-</ul>
-</div>
-</div>
-<p>This chapter provides an overview of the what I call the big picture: that is, what social science is all about, how to go about it, and what we can reasonably expect to learn from it. The chapters that follow address specific steps or stages of the research process. But in order to see how they fit together, we need to develop a sense of the underlying logic of inquiry that links all those stages together.</p>
-<section id="the-logic-of-social-science-inference-to-the-best-explanation" class="level2" data-number="1.1">
-<h2 data-number="1.1" class="anchored" data-anchor-id="the-logic-of-social-science-inference-to-the-best-explanation"><span class="header-section-number">1.1</span> The logic of social science: inference to the best explanation</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="mansion.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
-</figure>
-</div>
-<p>The broad field of knowledge known as social science is like a large mansion with many rooms. Inside each of those rooms are groups of researchers concerned with a particular type of problem or puzzle. <em>Why are some nations rich and others poor? Why do some economies industrialize and others stagnate?</em> Neighboring rooms contain specialists concerned with similar problems. <em>Why are most stable democracies rich while poor democracies succumb to autocrats?</em> Rooms down the hall or in another wing of the building are consumed with questions that may seem largely unrelated. <em>If the US raised the federal minimum wage to $20 per hour, what would happen to the unemployment rate? How has the declining US birthrate affected gender relations in the average household?</em></p>
-<p>Despite the rich complexity that constitutes the field, most social scientists agree on one thing: that the goal of social science is to <strong>explain the social and political world</strong>. It’s that simple. The world presents us with problems or puzzles that we can’t but would like to explain, so we go about trying to explain them.</p>
-<section id="social-scientific-reasoning" class="level3">
-<h3 class="anchored" data-anchor-id="social-scientific-reasoning">Social scientific reasoning</h3>
-<p>Social scientists have a distinctive (though not unique) way of approaching their task of explaining the social and political world. Sometimes called <strong>inference to the best explanation</strong>, the distinctive logic of social scientific inquiry goes like this:</p>
-<blockquote class="blockquote">
-<p>Given some data, and some candidate explanations or hypotheses that potentially explain that data, the explanation that is most compatible with the data is most likely to be true <span class="citation" data-cites="spirlingWhatGoodRegression2025">(adapted from <a href="references.html#ref-spirlingWhatGoodRegression2025" role="doc-biblioref">Spirling and Stewart 2025</a>)</span>.</p>
-</blockquote>
-<p>This abstract approach can be made more concrete by breaking it down into three key steps:</p>
-<ol type="1">
-<li>Generate possible explanations based on some initial observation(s)</li>
-<li>Collect new data relevant to the implications of those explanations</li>
-<li>Adjudicate between rival explanations in light of that new data</li>
-</ol>
-<p>While these steps are the touchstone of most social science literature, this logic of inference to the best explanation is actually quite common in other avenues of our lives. Let’s consider three examples.</p>
-<section id="everyday-reasoning" class="level4">
-<h4 class="anchored" data-anchor-id="everyday-reasoning">Everyday reasoning</h4>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="wet_grass.jpg" class="img-fluid figure-img" style="width:6.68in"></p>
-<figcaption>Wet morning grass</figcaption>
-</figure>
-</div>
-<p>The first example consists of a rather mundane puzzle we know from our everyday lives. It’s a common experience to wake up in the morning, look outside our window, and wonder: why’s the grass wet? Without exerting any extra effort, many of us slip right into inference-to-best-explanation mode.</p>
-<p>First, we generate possible explanations for observing wet grass in the morning:</p>
-<ul>
-<li>Overnight rain</li>
-<li>Morning dew</li>
-<li>Neighbor’s sprinkler system</li>
-</ul>
-<p>Then, we collect additional information based on the implications of those explanations:</p>
-<ul>
-<li>Check the weather app on our phone
-<ul>
-<li>Was rain in the forecast last night?</li>
-<li>Was there high humidity yesterday?</li>
-</ul></li>
-<li>Check outside
-<ul>
-<li>Is the sidewalk or the road also wet?</li>
-</ul></li>
-</ul>
-<p>Finally, we critically assess what the new information implies about which explanation is more or less likely to be true.</p>
-</section>
-<section id="mystery-stories" class="level4">
-<h4 class="anchored" data-anchor-id="mystery-stories">Mystery stories</h4>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="sherlock_holmes.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
-</figure>
-</div>
-<p>A more explicit example of inference to the best explanation can be found in mystery stories, such as the novels featuring famed fictional detective Sherlock Holmes or the many television crime and courtroom dramas found in the <em>Law &amp; Order</em> extended universe. In instances such as these, the puzzle to be explained is, of course, who committed the crime?</p>
-<p>Though very different than explaining why the grass is wet in the morning, the logic is the same.</p>
-<ul>
-<li>First, the investigator generates a list of potential suspects based on the initial facts of the crime.
-<ul>
-<li><em>Who had the means, motive, and opportunity?</em></li>
-</ul></li>
-<li>Next, the invesigator collects additional evidence to corroborate the suspects’ alibis.
-<ul>
-<li><em>Are there credible witnesses that can verify their whereabouts?</em></li>
-</ul></li>
-<li>Finally, the investigator excludes suspects as likely perpetrators based on evidence collected.
-<ul>
-<li><em>Suspect A was out of town the during night in question and couldn’t have committed the crime.</em></li>
-</ul></li>
-</ul>
-</section>
-<section id="medical-diagnoses" class="level4">
-<h4 class="anchored" data-anchor-id="medical-diagnoses">Medical diagnoses</h4>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="the_pitt.webp" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
-</figure>
-</div>
-<p>HBO’s hit series <em>The Pitt</em> is set in a hospital emergency room in downtown Pittsburgh, Pennsylvania. Each episode takes place during one hour of a 12-hour shift, displaying in real time the stressful and chaotic environment in which overburdened and underresourced hospital staff try to help their patients.</p>
-<p>While each patient arrives with a distinct emergency, the underlying logic of diagnosis is the same.</p>
-<ul>
-<li>Generate differential diagnosis based on patient’s symptoms
-<ul>
-<li><em>Are they presenting fever? Where do they report experiencing pain?</em></li>
-</ul></li>
-<li>Order lab tests or check patient for additional symptoms
-<ul>
-<li><em>What does the x-ray show? Do their reflexes respond normally?</em></li>
-</ul></li>
-<li>Rule out diseases or injuries inconsistent with lab results and make final diagnosis
-<ul>
-<li><em>Based on this set of symptoms and a positive test result, the patient is likely suffering from X</em></li>
-</ul></li>
-</ul>
-</section>
-<section id="political-science-explaining-the-rise-of-right-wing-populism" class="level4">
-<h4 class="anchored" data-anchor-id="political-science-explaining-the-rise-of-right-wing-populism">Political science: explaining the rise of right wing populism</h4>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="populists.jpg" class="img-fluid figure-img"></p>
-<figcaption>Right wing populists: (from left to right) Donald Trump, Giorgia Meloni, Viktor Orbán, Nigel Farage</figcaption>
-</figure>
-</div>
-<p>As the examples above illustrate, inference to the best explanation is a common form of reasoning found in diverse settings outside of social science. But of course it is foundational to the work of social scientists as well.</p>
-<p>Consider one of the major debates currently animating political science: the rise of right wing populism <span class="citation" data-cites="bermanCausesPopulismWest2021">(<a href="references.html#ref-bermanCausesPopulismWest2021" role="doc-biblioref">Berman 2021</a>)</span>.</p>
-<ul>
-<li>Theorize potential explanations based on initial observation
-<ul>
-<li><em>Economic grievance</em></li>
-<li><em>Sociocultural grievance</em></li>
-<li><em>Government dysfunction</em></li>
-<li><em>Entrepreneurial politicians</em></li>
-</ul></li>
-<li>Collect data to test implications of rival explanations
-<ul>
-<li><em>Does low socioeconomic status increase voters’ support for populist candidates?</em></li>
-<li><em>Is there a cross-country relationship between anti-immigrant attitudes and populist electoral success?</em></li>
-<li><em>Is there growing citizen dissatisfaction with political institutions?</em></li>
-<li><em>How do establishment politicians respond to populist insurgents?</em></li>
-</ul></li>
-<li>Adjudicate between rival explanations in light of new data
-<ul>
-<li><em>Which explanation (or combination of factors) is most likely to be true given the data?</em></li>
-</ul></li>
-</ul>
-</section>
-</section>
-</section>
-<section id="the-research-project-workflow" class="level2" data-number="1.2">
-<h2 data-number="1.2" class="anchored" data-anchor-id="the-research-project-workflow"><span class="header-section-number">1.2</span> The research project workflow</h2>
-<p>Let’s start by taking a bird’s eye view of this semester’s research project as a whole. <a href="#fig-workflow" class="quarto-xref">Figure&nbsp;<span>1.1</span></a> displays a diagram representing the research workflow, starting and ending with the state of existing knowledge.</p>
-<div id="fig-workflow" class="fig-workflow quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-workflow-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="research_workflow.png" class="fig-workflow img-fluid quarto-figure quarto-figure-center figure-img" style="width:11in">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-workflow-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;1.1: The research workflow
-</figcaption>
-</figure>
-</div>
-<p>There’s a lot going on in this diagram, so let’s explain it piece by piece. The blue-shaded bubbles represent distinct stages of the research process. The solid arrows trace a clockwise workflow from <strong>topic</strong> in the top-right corner to <strong>findings and implications</strong> near the top-left. The dashed arrows trace a counter-clockwise workflow back through the stages. This is meant to capture that although the workflow looks chronological, real-world research typically iterates back and forth between stages, recursively revising and refining previous stages as we move forward to new ones.</p>
-<p>There are also two red-shaded deliverables that are spun out of the workflow at various points. A formal <strong>research proposal</strong> is expected around the midpoint in the semester and a polished <strong>research paper</strong> is expected at the end.</p>
-<p>As the semester proceeds, we’ll spend significant time unpacking each and every one of these stages as you move your project through the research workflow. I’ll also clarify precisely what is expected in the research proposal and paper. The chapters that follow do precisely that. For now, to get a better sense of the big picture, let’s take a brief tour through the workflow.</p>
-<p><strong><em><code>Existing knowledge</code></em></strong></p>
-<p>All research projects begin and end with the state of existing knowledge. We draw from it when we learn about a subject that interests us, and we contribute to it when we communicate our research findings to audiences and stakeholders. As researchers, our intention is to extend the frontiers of knowledge, even if only modestly, leaving the field in a better place than when we found it.</p>
-<p><strong><em><code>Topic, problem/puzzle, question</code></em></strong></p>
-<p>While existing knowledge typically plays an implicit, background role, in the formation of research projects, specific topics, problems, puzzles, or questions are usually top of mind in the formation of research projects.</p>
-<p><strong><em><code>Join the conversation</code></em></strong></p>
-<p><strong><em><code>Theory and hypotheses</code></em></strong></p>
-<p><strong><em><code>Research design</code></em></strong></p>
-<p><strong><em><code>Data collection and analysis</code></em></strong></p>
-<p><strong><em><code>Findings and implications</code></em></strong></p>
-<section id="inference-is-the-goal" class="level3">
-<h3 class="anchored" data-anchor-id="inference-is-the-goal">Inference is the goal</h3>
-<p>There’s a common misconception among new students in the social sciences that they will find a single correct answer to their research question—something along the lines of, say, <span class="math inline">\(2 + 2 = 4\)</span>.</p>
-<p>Inference is simply the act of making claims that go beyond the particular evidence examined <span class="citation" data-cites="KKV">(<a href="references.html#ref-KKV" role="doc-biblioref">King et al. 1994</a>)</span>.</p>
-<p>But if by <em>answer</em> we mean a transparently reasoned, evidence-based conclusion that is amenable to future updating based on new evidence, then let me reassure you that you’re ready for the challenge that awaits you.</p>
-<p>The process by which we arrive at this transparently reasoned, evidence-based, and always-tentative conclusion goes by the name <strong>inference</strong>, and it is the basis of all social science research. According to its <a href="https://en.wikipedia.org/wiki/Inference">Wikipedia entry</a>, inference is simply a “conclusion reached on the basis of evidence and reasoning.” Why must we infer?</p>
-<p>We make so many inferences in our everyday lives, we may not even consciously notice. When we wake up and find that the sidewalk is wet, we infer that it rained overnight. When you see a friend sitting down to have a snack, you may infer that they’re hungry. If you find your roommate packing a bag, you might infer that they are going away for the weekend.</p>
-<p>In the social sciences, we make inferences about other kinds of phenomena, but the logic is the same. After observing a polity’s electoral process, we may classify the regime as either a democracy or an autocracy. To survey public opinion, we typically rely on a representative sample from which we generalize about the whole population. If the economy enters a recession, we may expect an incumbent’s chances of reelection to diminish.</p>
-<p>These examples of inference from both everyday life and the social sciences have something in common: they all occur under conditions of <strong>uncertainty</strong>. This is why social science research is fundamentally unlike concluding that <span class="math inline">\(2 + 2 = 4\)</span>. The simple definition of the equation’s symbols provides us with complete information and makes the conclusion logically inescapable. We can claim that <span class="math inline">\(2 + 2 = 4\)</span> with absolute certainty.</p>
-<p>When it comes to social science, we not so lucky. Typically, we operate with incomplete information and must form our conclusions carefully to account for uncertainty. We may think that it was the economic recession that doomed the president’s reelection, but perhaps it was a corruption scandal that was top of mind for voters that year. Needing to do our research under conditions of uncertainty makes social science challenging but also interesting and ultimately rewarding.</p>
-</section>
-<section id="inference-and-explanation" class="level3">
-<h3 class="anchored" data-anchor-id="inference-and-explanation">Inference and explanation</h3>
-<p>The centrality of inference to social science research may feel a little deflating at first. It is natural to want to find clear and definite answers to questions of widespread public concern and political importance. Does the ubiquity of uncertainty mean that we can’t really explain anything?</p>
-<p>Why do much uncertainty? There are multiple sources of uncertainty when conducting research on the social and political world <span class="citation" data-cites="gailmardStatisticalModelingInference2014">(<a href="references.html#ref-gailmardStatisticalModelingInference2014" role="doc-biblioref">Gailmard 2014, 73</a>)</span>.</p>
-</section>
-<section id="a-pluralist-methodology" class="level3">
-<h3 class="anchored" data-anchor-id="a-pluralist-methodology">A pluralist methodology</h3>
-<p>I’ll conclude this introductory chapter with a brief statement intended to clarify the methodological underpinnings of the research advice contained in this book. Social science can be thought of as a mansion with many rooms,</p>
-<p>Philosophically, this book embraces what’s called methodological pluralism. This particular view of social science follows from the principles laid out above. If we as researchers operate under conditions of uncertainty and our inferences are always tentative and subject to revision, then it’s best that we take a broadly inclusive approach to social science research. Gatekeeping—that is, judging what is and <em>is not</em> legitimate social science—can be a harmful and unproductive practice, and is</p>
-<p>This is not the same as saying that social science is a field in which “anything goes.” As we’ve established, there are standards that must be met.</p>
 
 
-<div id="refs" class="references csl-bib-body hanging-indent" role="list" style="display: none">
-<div id="ref-bermanCausesPopulismWest2021" class="csl-entry" role="listitem">
-Berman, Sheri. 2021. <span>“The Causes of Populism in the West.”</span> <em>Annual Review of Political Science</em> 24 (Volume 24, 2021): 71–88. <a href="https://doi.org/10.1146/annurev-polisci-041719-102503">https://doi.org/10.1146/annurev-polisci-041719-102503</a>.
-</div>
-<div id="ref-gailmardStatisticalModelingInference2014" class="csl-entry" role="listitem">
-Gailmard, Sean. 2014. <em>Statistical Modeling and Inference for Social Science:</em> 1st ed. Cambridge University Press. <a href="https://doi.org/10.1017/CBO9781139047449">https://doi.org/10.1017/CBO9781139047449</a>.
-</div>
-<div id="ref-KKV" class="csl-entry" role="listitem">
-King, Gary, Robert O. Keohane, and Sidney Verba. 1994. <em>Designing social inquiry: scientific inference in qualitative research</em>. Princeton University Press.
-</div>
-<div id="ref-spirlingWhatGoodRegression2025" class="csl-entry" role="listitem">
-Spirling, Arthur, and Brandon M. Stewart. 2025. <span>“What Good Is a Regression? Inference to the Best Explanation and the Practice of Political Science Research.”</span> <em>The Journal of Politics</em> 87 (4): 1587–99. <a href="https://doi.org/10.1086/734280">https://doi.org/10.1086/734280</a>.
-</div>
-</div>
-</section>
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -913,13 +638,13 @@ Spirling, Arthur, and Brandon M. Stewart. 2025. <span>“What Good Is a Regressi
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./index.html" class="pagination-link" aria-label="Welcome!">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Welcome!</span>
+      <a href="./research_proposal.html" class="pagination-link" aria-label="Research Proposal">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Research Proposal</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./topic_to_question.html" class="pagination-link" aria-label="From Topic to Question">
-        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">From Topic to Question</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./data_collection_analysis.html" class="pagination-link" aria-label="Data Collection and Analysis">
+        <span class="nav-page-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Data Collection and Analysis</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
