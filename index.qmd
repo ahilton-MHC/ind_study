@@ -16,7 +16,7 @@ Specifically, despite the apparent novelties of things like Artificial Intellige
 
 To see if a theory actually helps us explain the political problems that concern us, we need to draw out some empirical implications, or **hypotheses**, to test. To do so, we simply ask ourselves:
 
-> *if my theory was true, what would I expect to see in the world?*
+> *if this theory is true, what would I expect to see in the world?*
 
 Our strategy for **collecting the** **evidence or data** we need to test our hypotheses is called our **research design**. Specifying precisely how we collected our data and tested our hypotheses is a critical part of research because it is a process containing myriad decisions on the part of the researcher—some small, others large—none of answers for which are obvious and all of which a critical reader may scrutinize. If, say, you're interested in explaining the affect of AI on inequality, how will you define and measure those two concepts? There are multiple legitimate ways to do so, so why did you do it in *that* particular way? Again, it's not just what you found that matters in social science, it's *how* you found it.
 

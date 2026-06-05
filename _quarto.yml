@@ -19,7 +19,7 @@ book:
   search: true
   chapters:
     - index.qmd
-    - intro.qmd
+    - big_picture.qmd
     - topic_to_question.qmd
     - lit_review.qmd
     - theory_and_hypothesis.qmd
@@ -37,7 +37,10 @@ format:
   html:
     theme:
       - cosmo
-      - brand
+    fig-width: 6
+    fig-asp: 0.618
+    out-width: "70%"
+    fig-align: center
   epub:
     cover-image: logo.png
   typst:

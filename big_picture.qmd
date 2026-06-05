@@ -1,0 +1,244 @@
+# The Big Picture
+
+::: callout-note
+## Chapter learning goals
+
+- Think of the logic of social science as inference to the best explanation
+- Appreciate the strengths and limitations of social science research
+- Get an overview of the research project workflow
+:::
+
+## Introduction
+
+This chapter launches your independent study by presenting you with the big picture; that is, it seeks to provide you with a sense of what social science is, how to go about it, and what you can reasonably expect to learn from it. The chapters that follow each present you with specific, concrete steps, strategies, and directives necessary to move your research project forward. But in order to see how all the pieces fit together and where you are headed, we begin with a careful examination of the foundations undergirding the whole process.
+
+## The logic of social science
+
+![Social science, a mansion with many rooms](mansion.jpg){#fig-mansion fig-alt="Social science is a mansion with many rooms." fig-align="center"}
+
+The broad field of knowledge known as social science is like a mansion with many rooms. Inside each room are groups of researchers concerned with particular types of problems or puzzles. Economists in one room discuss why some nations are rich while others are poor. In an adjoining room political scientists argue about why some democracies are stable while other regimes succumb to autocracy. Folks way down the hall or in another wing are consumed with questions that economists and political scientists rarely even consider, such as: *How is authoritative knowledge produced?* Or, *how will the declining childhood vaccination rate impact public health in the future?*
+
+Despite the rich variety and varied concerns that constitute the field, most social scientists agree on one thing: that our goal is **to** **explain the social and political world**. It's that simple. The world presents us with problems or puzzles that we can't but would like to explain, so we go about trying to explain them.
+
+### Social scientific reasoning
+
+Most social scientists also share a distinctive (though not unique) way of approaching their ultimate goal. Sometimes called **inference to the best explanation** in the philosophy of science literature, the typical logic of social scientific inquiry goes something like this:
+
+> Given some data, and some candidate explanations or hypotheses that potentially explain that data, the explanation that is most compatible with the data is most likely to be true [adapted from @spirlingWhatGoodRegression2025].
+
+Let's clarify this rather abstract principle by breaking it down into three concrete steps:
+
+1.  Generate possible explanations based on some initial observation(s)
+
+2.  Collect new data relevant to the implications of those explanations
+
+3.  Adjudicate between rival explanations in light of that new data
+
+These three steps are the foundation of most social science work, even if the term "inference to the best explanation" is rare invoked. Interestingly, the logic of inference to the best explanation is actually quite common in other avenues of life outside the social sciences. Let's consider three examples.
+
+#### Everyday reasoning
+
+![Wet morning grass](wet_grass.jpg){#fig-wet-grass fig-align="center" width="6.68in"}
+
+The first example consists of a rather mundane puzzle many of us know from our everyday lives. Perhaps you've had the experience of waking up in the morning, looking outside the window, and wondering: why's the grass all wet? Without exerting any extra effort, many of us slip right into inferring to the best explanation, replicated the same three steps outlined above.
+
+- First, we generate possible explanations for observing wet grass in the morning:
+
+  - Overnight rain
+
+  - Morning dew
+
+  - Neighbor's sprinkler system
+
+- Next, we collect additional information based on the implications of those explanations:
+
+  - Check the weather app
+
+    - Was rain in the forecast last night?
+    - Was there high humidity yesterday?
+
+  - Look outside again
+
+    - Is the sidewalk or the road also wet?
+
+- Finally, we critically assess what the new information implies about which explanation is more or less likely to be true.
+
+  - If the app says there was a 35% chance of rain last night *and* the road and sidewalk are also wet, we gain confidence that overnight rain is the best explanation for wet grass in the morning.
+
+#### Mysteries
+
+![Sherlock Holmes](sherlock_holmes.jpg){#fig-sherlock-holmes fig-align="center"}
+
+A more explicit example of inference to the best explanation can be found in mystery stories, such as the novellas featuring famed fictional detective Sherlock Holmes or the many television crime and courtroom dramas found in the *Law & Order* extended universe. In instances such as these, the puzzle to be explained is, of course, who committed the crime?
+
+Though the stakes are very different than when explaining wet grass in the morning, the logic of inquiry is basically the same.
+
+- First, the investigator generates a list of potential suspects based on the initial facts of the crime.
+
+  - *Who had the means, motive, and opportunity?*
+
+- Next, the investigator collects additional evidence to corroborate the suspects' alibis.
+
+  - *Are there credible witnesses that can verify their whereabouts on the night in question?*
+
+- Finally, the investigator rules out suspects as likely perpetrators based on new evidence collected.
+
+  - *Suspect A was out of town the during night in question so they couldn't have committed the crime.*
+
+#### Medical diagnoses
+
+![The Pitt](the_pitt.webp){#fig-the-pitt fig-align="center"}
+
+HBO's hit medical drama *The Pitt* is set in a hospital emergency room in downtown Pittsburgh. Each episode is a one-hour increment of a 12-hour day shift, depicting in real time the stressful and chaotic environment in which overburdened and under-resourced hospital staff try to help their patients.
+
+While each patient arrives with a distinct situation, the underlying procedure is the same.
+
+- Doctors generate a [differential diagnosis](https://en.wikipedia.org/wiki/Differential_diagnosis) based on a patient's symptoms
+
+  - *Are they presenting fever? Where do they report experiencing pain? Could X be the cause? Could it be Y?*
+
+- Doctors then order lab tests and/or check patient for additional symptoms consistent with the contending diagnoses
+
+  - *What do the x-ray results show? Do their pupils respond normally to light?*
+
+- The doctors then rule out diseases or injuries inconsistent with lab results and make a final diagnosis
+
+  - *Based on this set of symptoms and a positive test result, the patient is most likely suffering from X*
+
+As these examples illustrate, inference to the best explanation is a common form of reasoning found in diverse settings outside of social science. But it is also foundational to the work of social scientists and the kind of research you'll do in this independent study. Let's consider an example from within the halls of social science.
+
+#### Political science: explaining the rise of right wing populism
+
+![Right wing populists: (from left to right) Donald Trump, Giorgia Meloni, Viktor Orbán, Nigel Farage](populists.jpg){fig-align="center"}
+
+One of the major debates currently animating political science concerns explaining the rise of right wing populism across the world over the last few decades [@bermanCausesPopulismWest2021]. Despite the clear differences from everyday life, murder mysteries, and emergency rooms, we can see inference to the best explanation at work in this field as well.
+
+- Researchers theorize potential explanations based on initial observations of right wing populism
+
+  - *Economic grievance*
+  - *Sociocultural grievance*
+  - *Government dysfunction*
+  - *Entrepreneurial politicians*
+
+- Next, researchers collect data to test implications of rival explanations
+
+  - *Does low socioeconomic status increase voters' support for populist candidates?*
+  - *Is there a relationship between anti-immigrant attitudes and populist electoral success?*
+  - *Is there growing citizen dissatisfaction with political institutions?*
+  - *How do establishment politicians respond to the challenge of populist insurgents?*
+
+- Finally, researchers adjudicate between rival explanations in light of the new data
+
+  - *Which explanation (or combination of explanatory factors) is most compatible with the data?*
+
+Let's pause here to recognize how this example returns us to the description of social science research offered on the Welcome page of this guide. While we've layered on the label "inference to the best explanation" in this chapter, we are only re-describing the research process in terms of the particular way social scientists reason while doing their research.
+
+It begins with an initial observation—wet grass, a robbery, a feverish patient, or the election of a populist leader—which presents us with a **problem or puzzle** in need of explanation. Having been puzzled by this initial observation, we generate potential **theories** on our own or more often in **conversation** with other specialists in order to explain it. To assess which theory is most compatible with the data, we **gather additional information** by testing the theories' empirical implications. *If theory A is true, what would I expect to see in the world?* The total weight of evidence collected in **hypothesis testing** helps us infer which theory or explanation is most likely to be true.
+
+## Strengths and limitations of social science research
+
+As an approach to explaining the world's social and political problems, inference to the best explanation is an elegant model of social science reasoning and is evident in the best social science work. Such an analytic approach has clear strengths across its many fields of application but also some important limitations that all social scientist researchers who use it should be aware of.
+
+### Strengths
+
+#### *Inclusivity*
+
+As a logic of inquiry, inference to the best explanation embraces a broad, encompassing definition of "explanation." Depending on the particular question under examination, an explanation could be either *descriptive* or *causal* in nature. For instance, if we are concerned with the question, "what is populism," an explanation would include a clear definition of its main attributes or characteristics and perhaps some empirical indicators that could help us identify or measure the presence or absence of those populist attributes.
+
+However, if the question was "what is causing the spread of populism today," then an explanation would need to go beyond just describing what populism is. We'd also need to offer some theory and hypotheses concerning which causal factors are at work in producing the phenomenon in the first place (as we discussed in the example above).
+
+Some social scientists assert that explanation requires a causal account [@KKV]. The approach embraced in this guide suggests that such a narrow perspective unduly excludes descriptive social science projects from the field, and regards causal and non-causal explanations as equally legitimate contributions [@dowdingExplanatoryPluralismPolitical2025].
+
+#### *Bias mitigation*
+
+We all like to be right, and often resist being wrong, even if unconsciously. For better or worse, human beings construct mental models of how the world works, and these models can affect how we process new information [@kahnemanThinkingFastSlow2013]. Just like everyone else, social scientists are prone to various cognitive biases, including confirmation bias, in which we "seek only information that would confirm a guess or hypothesis but no information that would contradict it" [@toshkovResearchDesignPolitical2025, p. 11].
+
+This is a very common problem, both in student papers as well as professional peer-reviewed studies. The potential influence of confirmation bias often shows up like this:
+
+> To explain the rise of right wing populism I theorize that growing populist sentiment in the public is rooted in widespread economic grievances. After collecting data on income inequality and voting patterns across US congressional districts, I found a strong positive correlation between economic disparity and the vote share of populist candidates.
+
+What's wrong with this argument? On its own, nothing. It posits a plausible relationship between economic grievance and the phenomenon of interest, and it proposes a reasonable hypothesis to test by measuring the strength of the correlation between income disparities and voting patterns in US congressional districts.
+
+But how does the author know that this economic explanation of populism is the "best" one? By limiting the analysis to only one theory—oftentimes the one we already prefer—we can't know how it compares to other rival explanations. Maybe districts with high inequality also have large immigrant populations, such as urban areas, which could influence voting behavior independently of economic factors? This is the social-science equivalent to a doctor who prematurely jumps to a final diagnoses without exploring the full range of symptoms and likely causes.
+
+The approach of this guide mitigates this form of cognitive bias (at least somewhat) by explicitly generating multiple possible explanations for some phenomenon of interest as a first step. The social and political world is a complex environment. Very few problems or puzzles that are worthy subjects of a research project have a single, clear explanation. When in conversation with the literature (see Chapter 3), you'll likely be able to apply two or three theories to your problem or puzzle of interest, ensuring that you've at least considered rival explanations and tested their inferential power against your favorite theory.
+
+When these rival theories are drawn from a diverse body of scholarship, written from diverse perspectives, this approach can also cultivate an awareness of our own positionality as researchers and help us crossexamine the assumptions we bring to our work [@grossmannHowSocialScience2021].
+
+#### *Avoid ambiguous evidence*
+
+Every good detective bases their investigation around a set of clues—pieces of evidence that indicate where to look for more information. Detectives need that additional information in order to discriminate between rival explanations, to eliminate suspects from their list, and focus their investigation on the most likely perpetrator.
+
+We do a similar thing in social science. Once we have a set of potential explanations for the phenomenon of interest, we need to collect discriminating evidence that we help us adjudicate between them. Data collection is one of the most time consuming parts of the research workflow. Luckily, inference to the best explanation makes such a task more productive by helping us avoid wasting our time examining ambiguous evidence.
+
+What do I mean by "ambiguous evidence"? To illustrate, let's return to our detective example. Say that Sherlock Holmes is investigating a burglary, and he has a list of three suspects. He spends the first day of the investigation going around town to verify their whereabouts the night before. As it turns out, all three were in fact in town during the evening in question. So, what has Holmes learned from his day-long effort? Very little. As a piece of evidence, "being in town the night of the burglary" fails to discriminate between the suspects. They all have that in common. Indeed, they share that fact with everyone else that was in town that night too.
+
+To apply the lesson to social science, think again about the puzzle of populism. In the cognitive bias example above, we said that finding a strong positive relationship between income inequality and populists' vote share was insufficient on its own for claiming that economic grievance is the best explanation for the rise of populism. We pointed to the fact that income inequality is likely to be highest in urban areas, which also tend to have large immigrant populations, so we're left in the dark regarding what explanatory power, if any, the sociocultural explanation may have.
+
+Our rival explanations orient us toward collecting evidence that we'd expect to find if the economic explanation was true but would be surprised to find if sociocultural explanation was true.
+
+## The research project workflow
+
+Let's wrap up our tour of the big picture by taking a bird's eye view of this semester's research project as a whole. @fig-workflow displays a diagram representing the research workflow, starting and ending with the state of existing knowledge.
+
+![The research workflow](research_workflow.png){#fig-workflow .fig-workflow fig-align="center" width="11in"}
+
+There's a lot going on in this diagram, so let's explain it piece by piece. The blue-shaded bubbles represent distinct stages of the research process. The solid arrows trace a clockwise workflow from **topic** in the top-right corner to **findings and implications** near the top-left. The dashed arrows trace a counter-clockwise workflow back through the stages. This is meant to capture that although the workflow looks chronological, real-world research typically iterates back and forth between stages, recursively revising and refining previous stages as we move forward to new ones.
+
+There are also two red-shaded deliverables that are spun out of the workflow at various points. A formal **research proposal** is expected around the midpoint in the semester and a polished **research paper** is expected at the end.
+
+As the semester proceeds, we'll spend significant time unpacking each and every one of these stages as you move your project through the research workflow. I'll also clarify precisely what is expected in the research proposal and paper. The chapters that follow do precisely that. For now, to get a better sense of the big picture, let's take a brief tour through the workflow.
+
+***`Existing knowledge`***
+
+All research projects begin and end with the state of existing knowledge. We draw from it when we learn about a subject that interests us, and we contribute to it when we communicate our research findings to audiences and stakeholders. As researchers, our intention is to extend the frontiers of knowledge, even if only modestly, leaving the field in a better place than when we found it.
+
+***`Topic, problem/puzzle, question`***
+
+While existing knowledge typically plays an implicit, background role, in the formation of research projects, specific topics, problems, puzzles, or questions are usually top of mind in the formation of research projects.
+
+***`Join the conversation`***
+
+***`Theory and hypotheses`***
+
+***`Research design`***
+
+***`Data collection and analysis`***
+
+***`Findings and implications`***
+
+### Inference is the goal
+
+There's a common misconception among new students in the social sciences that they will find a single correct answer to their research question—something along the lines of, say, $2 + 2 = 4$.
+
+Inference is simply the act of making claims that go beyond the particular evidence examined [@KKV].
+
+But if by *answer* we mean a transparently reasoned, evidence-based conclusion that is amenable to future updating based on new evidence, then let me reassure you that you're ready for the challenge that awaits you.
+
+The process by which we arrive at this transparently reasoned, evidence-based, and always-tentative conclusion goes by the name **inference**, and it is the basis of all social science research. According to its [Wikipedia entry](https://en.wikipedia.org/wiki/Inference), inference is simply a "conclusion reached on the basis of evidence and reasoning." Why must we infer?
+
+We make so many inferences in our everyday lives, we may not even consciously notice. When we wake up and find that the sidewalk is wet, we infer that it rained overnight. When you see a friend sitting down to have a snack, you may infer that they're hungry. If you find your roommate packing a bag, you might infer that they are going away for the weekend.
+
+In the social sciences, we make inferences about other kinds of phenomena, but the logic is the same. After observing a polity's electoral process, we may classify the regime as either a democracy or an autocracy. To survey public opinion, we typically rely on a representative sample from which we generalize about the whole population. If the economy enters a recession, we may expect an incumbent's chances of reelection to diminish.
+
+These examples of inference from both everyday life and the social sciences have something in common: they all occur under conditions of **uncertainty**. This is why social science research is fundamentally unlike concluding that $2 + 2 = 4$. The simple definition of the equation's symbols provides us with complete information and makes the conclusion logically inescapable. We can claim that $2 + 2 = 4$ with absolute certainty.
+
+When it comes to social science, we not so lucky. Typically, we operate with incomplete information and must form our conclusions carefully to account for uncertainty. We may think that it was the economic recession that doomed the president's reelection, but perhaps it was a corruption scandal that was top of mind for voters that year. Needing to do our research under conditions of uncertainty makes social science challenging but also interesting and ultimately rewarding.
+
+### Inference and explanation
+
+The centrality of inference to social science research may feel a little deflating at first. It is natural to want to find clear and definite answers to questions of widespread public concern and political importance. Does the ubiquity of uncertainty mean that we can't really explain anything?
+
+Why do much uncertainty? There are multiple sources of uncertainty when conducting research on the social and political world [@gailmardStatisticalModelingInference2014, p. 73].
+
+### A pluralist methodology
+
+I'll conclude this introductory chapter with a brief statement intended to clarify the methodological underpinnings of the research advice contained in this book. Social science can be thought of as a mansion with many rooms,
+
+Philosophically, this book embraces what's called methodological pluralism. This particular view of social science follows from the principles laid out above. If we as researchers operate under conditions of uncertainty and our inferences are always tentative and subject to revision, then it's best that we take a broadly inclusive approach to social science research. Gatekeeping—that is, judging what is and *is not* legitimate social science—can be a harmful and unproductive practice, and is
+
+This is not the same as saying that social science is a field in which "anything goes." As we've established, there are standards that must be met.
+
+## Conclusion
+
+Be a mindful learner

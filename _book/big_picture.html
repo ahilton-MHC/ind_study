@@ -1,0 +1,1023 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>1&nbsp; The Big Picture – MHC in DC Independent Study Guide</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./topic_to_question.html" rel="next">
+<link href="./index.html" rel="prev">
+<link href="./logo.png" rel="icon" type="image/png">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-0be3436302ea171be80ef53aace9a748.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+</head>
+
+<body class="nav-sidebar docked quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./big_picture.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">The Big Picture</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">MHC in DC Independent Study Guide</a> 
+        <div class="sidebar-tools-main">
+    <div class="dropdown">
+      <a href="" title="Download" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" role="link" aria-label="Download"><i class="bi bi-download"></i></a>
+      <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="./MHC-in-DC-Independent-Study-Guide.pdf">
+              <i class="bi bi-file-pdf pe-1"></i>
+            Download PDF
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="./MHC-in-DC-Independent-Study-Guide.docx">
+              <i class="bi bi-file-word pe-1"></i>
+            Download Docx
+            </a>
+          </li>
+      </ul>
+    </div>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Welcome!</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./big_picture.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">The Big Picture</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./topic_to_question.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">From Topic to Question</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./lit_review.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Joining the Conversation</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./theory_and_hypothesis.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Theory and Hypotheses</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./research_design.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Research Design</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./research_proposal.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Research Proposal</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./proposal_to_paper.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">From Proposal to Paper</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./data_collection_analysis.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Data Collection and Analysis</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./findings_and_implications.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Findings and Implications</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./research_paper.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Research Paper</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./references.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">References</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction"><span class="header-section-number">1.1</span> Introduction</a></li>
+  <li><a href="#the-logic-of-social-science" id="toc-the-logic-of-social-science" class="nav-link" data-scroll-target="#the-logic-of-social-science"><span class="header-section-number">1.2</span> The logic of social science</a>
+  <ul class="collapse">
+  <li><a href="#social-scientific-reasoning" id="toc-social-scientific-reasoning" class="nav-link" data-scroll-target="#social-scientific-reasoning">Social scientific reasoning</a></li>
+  </ul></li>
+  <li><a href="#strengths-and-limitations-of-social-science-research" id="toc-strengths-and-limitations-of-social-science-research" class="nav-link" data-scroll-target="#strengths-and-limitations-of-social-science-research"><span class="header-section-number">1.3</span> Strengths and limitations of social science research</a>
+  <ul class="collapse">
+  <li><a href="#strengths" id="toc-strengths" class="nav-link" data-scroll-target="#strengths">Strengths</a></li>
+  </ul></li>
+  <li><a href="#the-research-project-workflow" id="toc-the-research-project-workflow" class="nav-link" data-scroll-target="#the-research-project-workflow"><span class="header-section-number">1.4</span> The research project workflow</a>
+  <ul class="collapse">
+  <li><a href="#inference-is-the-goal" id="toc-inference-is-the-goal" class="nav-link" data-scroll-target="#inference-is-the-goal">Inference is the goal</a></li>
+  <li><a href="#inference-and-explanation" id="toc-inference-and-explanation" class="nav-link" data-scroll-target="#inference-and-explanation">Inference and explanation</a></li>
+  <li><a href="#a-pluralist-methodology" id="toc-a-pluralist-methodology" class="nav-link" data-scroll-target="#a-pluralist-methodology">A pluralist methodology</a></li>
+  </ul></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion"><span class="header-section-number">1.5</span> Conclusion</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">The Big Picture</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Chapter learning goals
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>Think of the logic of social science as inference to the best explanation</li>
+<li>Appreciate the strengths and limitations of social science research</li>
+<li>Get an overview of the research project workflow</li>
+</ul>
+</div>
+</div>
+<section id="introduction" class="level2" data-number="1.1">
+<h2 data-number="1.1" class="anchored" data-anchor-id="introduction"><span class="header-section-number">1.1</span> Introduction</h2>
+<p>This chapter launches your independent study by presenting you with the big picture: that is, it seeks to provide you with a sense of what social science is, how to go about it, and what we can reasonably expect to learn from it. The chapters that follow each present you with specific, concrete steps, strategies, and directives necessary to advance your research project. But in order to see how they all fit together, we begin with a careful examination of the foundational logic underpinning the whole process.</p>
+</section>
+<section id="the-logic-of-social-science" class="level2" data-number="1.2">
+<h2 data-number="1.2" class="anchored" data-anchor-id="the-logic-of-social-science"><span class="header-section-number">1.2</span> The logic of social science</h2>
+<div id="fig-mansion" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" alt="Social science is a mansion with many rooms.">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-mansion-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="mansion.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="Social science is a mansion with many rooms.">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-mansion-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1.1: Social science, a mansion with many rooms
+</figcaption>
+</figure>
+</div>
+<p>The broad field of knowledge known as social science is like a mansion with many rooms. Inside each room are groups of researchers concerned with a particular type of problem or puzzle. Economists in one room discuss why are some nations rich while others are poor. Political scienists in a neighboring room may be arguing about why somedemocracies are stable while other regimes succumb to autocracy. Folks down the hall or in another wing of the building may be consumed with questions that economists and political scientists rarely consider, such as: <em>How is authoritative knowledge produced?</em> Or <em>how will the declining childhood vaccination rate impact US public health in the future?</em></p>
+<p>Despite the rich variety and varied perspectives that constitute the field, most social scientists agree on one thing: that the goal of social science is <strong>to</strong> <strong>explain the social and political world</strong>. It’s that simple. The world presents us with problems or puzzles that we can’t but would like to explain, so we go about trying to explain them.</p>
+<section id="social-scientific-reasoning" class="level3">
+<h3 class="anchored" data-anchor-id="social-scientific-reasoning">Social scientific reasoning</h3>
+<p>Social scientists have a distinctive (though not unique) way of approaching their task of explaining the social and political world. Sometimes called <strong>inference to the best explanation</strong>, the distinctive logic of social scientific inquiry goes something like this:</p>
+<blockquote class="blockquote">
+<p>Given some data, and some candidate explanations or hypotheses that potentially explain that data, the explanation that is most compatible with the data is most likely to be true <span class="citation" data-cites="spirlingWhatGoodRegression2025">(adapted from <a href="references.html#ref-spirlingWhatGoodRegression2025" role="doc-biblioref">Spirling and Stewart 2025</a>)</span>.</p>
+</blockquote>
+<p>This abstract summary of the typical social science approach can be clarified by breaking it down into three concrete steps:</p>
+<ol type="1">
+<li><p>Generate possible explanations based on some initial observation(s)</p></li>
+<li><p>Collect new data relevant to the implications of those explanations</p></li>
+<li><p>Adjudicate between rival explanations in light of that new data</p></li>
+</ol>
+<p>While these steps are the touchstone of most social science literature, the logic of inference to the best explanation is actually quite common in other avenues of life. Let’s consider three non-social scientific examples.</p>
+<section id="everyday-reasoning" class="level4">
+<h4 class="anchored" data-anchor-id="everyday-reasoning">Everyday reasoning</h4>
+<div id="fig-wet-grass" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-wet-grass-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="wet_grass.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:6.68in">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-wet-grass-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1.2: Wet morning grass
+</figcaption>
+</figure>
+</div>
+<p>The first example consists of a rather mundane puzzle many of us know from our everyday lives. Perhaps you’ve had the experience of waking up in the morning, looking outside the window, and wondering: why’s the grass all wet? Without exerting any extra effort, many of us slip right into inferring to the best explanation.</p>
+<p>First, we generate possible explanations for observing wet grass in the morning:</p>
+<ul>
+<li><p>Overnight rain</p></li>
+<li><p>Morning dew</p></li>
+<li><p>Neighbor’s sprinkler system</p></li>
+</ul>
+<p>Next, we collect additional information based on the implications of those explanations:</p>
+<ul>
+<li><p>Check the weather app</p>
+<ul>
+<li>Was rain in the forecast last night?</li>
+<li>Was there high humidity yesterday?</li>
+</ul></li>
+<li><p>Look outside again</p>
+<ul>
+<li>Is the sidewalk or the road also wet?</li>
+</ul></li>
+</ul>
+<p>Finally, we critically assess what the new information implies about which explanation is more or less likely to be true. If the app says there was a 35% chance of rain last night <em>and</em> the road and sidewalk also appear wet, we gain confidence that overnight rain is the best explanation.</p>
+</section>
+<section id="mysteries" class="level4">
+<h4 class="anchored" data-anchor-id="mysteries">Mysteries</h4>
+<div id="fig-sherlock-holmes" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-sherlock-holmes-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="sherlock_holmes.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-sherlock-holmes-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1.3: Sherlock Holmes
+</figcaption>
+</figure>
+</div>
+<p>A more explicit example of inference to the best explanation can be found in mystery stories, such as the novellas featuring famed fictional detective Sherlock Holmes or the many television crime and courtroom dramas found in the <em>Law &amp; Order</em> extended universe. In instances such as these, the puzzle to be explained is, of course, who committed the crime?</p>
+<p>Though the stakes are very different than when explaining wet grass in the morning, the logic of inquiry is basically the same.</p>
+<ul>
+<li><p>First, the investigator generates a list of potential suspects based on the initial facts of the crime.</p>
+<ul>
+<li><em>Who had the means, motive, and opportunity?</em></li>
+</ul></li>
+<li><p>Next, the investigator collects additional evidence to corroborate the suspects’ alibis.</p>
+<ul>
+<li><em>Are there credible witnesses that can verify their whereabouts on the night in question?</em></li>
+</ul></li>
+<li><p>Finally, the investigator rules out suspects as likely perpetrators based on new evidence collected.</p>
+<ul>
+<li><em>Suspect A was out of town the during night in question so they couldn’t have committed the crime.</em></li>
+</ul></li>
+</ul>
+</section>
+<section id="medical-diagnoses" class="level4">
+<h4 class="anchored" data-anchor-id="medical-diagnoses">Medical diagnoses</h4>
+<div id="fig-the-pitt" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-the-pitt-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="the_pitt.webp" class="img-fluid quarto-figure quarto-figure-center figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-the-pitt-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1.4: The Pitt
+</figcaption>
+</figure>
+</div>
+<p>HBO’s hit medical drama <em>The Pitt</em> is set in a hospital emergency room in downtown Pittsburgh, Pennsylvania. Each episode is a one-hour increment of a 12-hour day shift, depicting in real time the stressful and chaotic environment in which overburdened and under-resourced hospital staff try to help their patients.</p>
+<p>While each patient arrives with a distinct situation, the underlying logic of diagnosis is the same.</p>
+<ul>
+<li><p>Doctors generate a <a href="https://en.wikipedia.org/wiki/Differential_diagnosis">differential diagnosis</a> based on patient’s symptoms</p>
+<ul>
+<li><em>Are they presenting fever? Where do they report experiencing pain? Could it be X? Could Y be the cause?</em></li>
+</ul></li>
+<li><p>Then doctors order lab tests and/or check patient for additional symptoms consistent with contending diagnoses</p>
+<ul>
+<li><em>What do the x-ray results show? Do their pupils respond normally to light?</em></li>
+</ul></li>
+<li><p>Rule out diseases or injuries inconsistent with lab results and make a final diagnosis</p>
+<ul>
+<li><em>Based on this set of symptoms and a positive test result, the patient is most likely suffering from X</em></li>
+</ul></li>
+</ul>
+<p>As these examples illustrate, inference to the best explanation is a common form of reasoning found in diverse settings outside of social science. But it is also foundational to the work of social scientists. Let’s consider an example.</p>
+</section>
+<section id="political-science-explaining-the-rise-of-right-wing-populism" class="level4">
+<h4 class="anchored" data-anchor-id="political-science-explaining-the-rise-of-right-wing-populism">Political science: explaining the rise of right wing populism</h4>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="populists.jpg" class="img-fluid figure-img"></p>
+<figcaption>Right wing populists: (from left to right) Donald Trump, Giorgia Meloni, Viktor Orbán, Nigel Farage</figcaption>
+</figure>
+</div>
+<p>One of the major debates currently animating political science concerns explaining the rise of right wing populism across the world over the last few decades <span class="citation" data-cites="bermanCausesPopulismWest2021">(<a href="references.html#ref-bermanCausesPopulismWest2021" role="doc-biblioref">Berman 2021</a>)</span>. Despite the clear differences from everyday life, murder mysteries, and emergency rooms, we can see inference to the best explanation at work in this field as well.</p>
+<ul>
+<li><p>Researchers theorize potential explanations based on initial observation of rising right wing populism</p>
+<ul>
+<li><em>Economic grievance</em></li>
+<li><em>Sociocultural grievance</em></li>
+<li><em>Government dysfunction</em></li>
+<li><em>Entrepreneurial politicians</em></li>
+</ul></li>
+<li><p>Next, researchers collect data to test implications of rival explanations</p>
+<ul>
+<li><em>Does low socioeconomic status increase voters’ support for populist candidates?</em></li>
+<li><em>Is there a cross-country relationship between anti-immigrant attitudes and populist electoral success?</em></li>
+<li><em>Is there growing citizen dissatisfaction with political institutions?</em></li>
+<li><em>How do establishment politicians respond to the challenge of populist insurgents?</em></li>
+</ul></li>
+<li><p>Adjudicate between rival explanations in light of new data</p>
+<ul>
+<li><em>Which explanation (or combination of explanatory factors) is most compatible with the data?</em></li>
+</ul></li>
+</ul>
+<p>Let’s pause here to recognize how this example returns us to the description of social science research offered at the beginning of this guide. While we’ve layered on the label <strong>inference to the best explanation</strong> in this chapter, we are only re-describing the research process in terms of the particular mode of social science reasoning happening under the surface.</p>
+<p>It begins with an initial observation—wet grass, a robbery, a feverish patient, or the election of a populist—which presents us with a <strong>problem or puzzle</strong> in need of explanation. Having made this initial observation, we generate potential explanations or <strong>theories</strong> on our own or more often in <strong>conversation</strong> with other specialists. To assess which theory is most compatible with the data, we <strong>gather additional information</strong> by testing the theories’ empirical implications. <em>If theory A is true, what would I expect to see in the world?</em> The aggregate weight of the evidence collected in <strong>hypothesis testing</strong> helps us infer which theory or explanation is most likely to be true.</p>
+</section>
+</section>
+</section>
+<section id="strengths-and-limitations-of-social-science-research" class="level2" data-number="1.3">
+<h2 data-number="1.3" class="anchored" data-anchor-id="strengths-and-limitations-of-social-science-research"><span class="header-section-number">1.3</span> Strengths and limitations of social science research</h2>
+<p>As an approach to explaining the world’s social and political problems, inference to the best explanation is an elegant model of social science reasoning and is evident in the best social science work. Such an analytic approach has clear strengths across its many fields of application but also some important limitations that all social scientist researchers who use it should be aware of.</p>
+<section id="strengths" class="level3">
+<h3 class="anchored" data-anchor-id="strengths">Strengths</h3>
+<section id="inclusivity" class="level4">
+<h4 class="anchored" data-anchor-id="inclusivity"><em>Inclusivity</em></h4>
+<p>As a logic of inquiry, inference to the best explanation embraces a broad, encompassing definition of “explanation.” Depending on the particular question under examination, an explanation could be either <em>descriptive</em> or <em>causal</em> in nature. For instance, if we are concerned with the question, “what is populism,” an explanation would include a clear definition of its main attributes or characteristics and perhaps some empirical indicators that could help us identify or measure the presence or absence of those populist attributes.</p>
+<p>However, if the question was “what is causing the spread of populism today,” then an explanation would need to go beyond just describing what populism is. We’d also need to offer some theory and hypotheses concerning which causal factors are at work in producing the phenomenon in the first place (as we discussed in the example above).</p>
+<p>Some social scientists assert that explanation requires a causal account <span class="citation" data-cites="KKV">(<a href="references.html#ref-KKV" role="doc-biblioref">King et al. 1994</a>)</span>. The approach embraced in this guide suggests that such a narrow perspective unduly excludes descriptive social science projects from the field, and regards causal and non-causal explanations as equally legitimate contributions <span class="citation" data-cites="dowdingExplanatoryPluralismPolitical2025">(<a href="references.html#ref-dowdingExplanatoryPluralismPolitical2025" role="doc-biblioref">Dowding and Miller 2025</a>)</span>.</p>
+</section>
+<section id="bias-mitigation" class="level4">
+<h4 class="anchored" data-anchor-id="bias-mitigation"><em>Bias mitigation</em></h4>
+<p>We all like to be right, and often resist being wrong, even if unconsciously. For better or worse, human beings construct mental models of how the world works, and these models can affect how we process new information <span class="citation" data-cites="kahnemanThinkingFastSlow2013">(<a href="references.html#ref-kahnemanThinkingFastSlow2013" role="doc-biblioref">Kahneman 2013</a>)</span>. Just like everyone else, social scientists are prone to various cognitive biases, including confirmation bias, in which we “seek only information that would confirm a guess or hypothesis but no information that would contradict it” <span class="citation" data-cites="toshkovResearchDesignPolitical2025">(<a href="references.html#ref-toshkovResearchDesignPolitical2025" role="doc-biblioref">Toshkov 2025, 11</a>)</span>.</p>
+<p>This is a very common problem, both in student papers as well as professional peer-reviewed studies. The potential influence of confirmation bias often shows up like this:</p>
+<blockquote class="blockquote">
+<p>To explain the rise of right wing populism I theorize that growing populist sentiment in the public is rooted in widespread economic grievances. After collecting data on income inequality and voting patterns across US congressional districts, I found a strong positive correlation between economic disparity and the vote share of populist candidates.</p>
+</blockquote>
+<p>What’s wrong with this argument? On its own, nothing. It posits a plausible relationship between economic grievance and the phenomenon of interest, and it proposes a reasonable hypothesis to test by measuring the strength of the correlation between income disparities and voting patterns in US congressional districts.</p>
+<p>But how does the author know that this economic explanation of populism is the “best” one? By limiting the analysis to only one theory—oftentimes the one we already prefer—we can’t know how it compares to other rival explanations. Maybe districts with high inequality also have large immigrant populations, such as urban areas, which could influence voting behavior independently of economic factors? This is the social-science equivalent to a doctor who prematurely jumps to a final diagnoses without exploring the full range of symptoms and likely causes.</p>
+<p>The approach of this guide mitigates this form of cognitive bias (at least somewhat) by explicitly generating multiple possible explanations for some phenomenon of interest as a first step. The social and political world is a complex environment. Very few problems or puzzles that are worthy subjects of a research project have a single, clear explanation. When in conversation with the literature (see Chapter 3), you’ll likely be able to apply two or three theories to your problem or puzzle of interest, ensuring that you’ve at least considered rival explanations and tested their inferential power against your favorite theory.</p>
+<p>When these rival theories are drawn from a diverse body of scholarship, written from diverse perspectives, this approach can also cultivate an awareness of our own positionality as researchers and help us crossexamine the assumptions we bring to our work <span class="citation" data-cites="grossmannHowSocialScience2021">(<a href="references.html#ref-grossmannHowSocialScience2021" role="doc-biblioref">Grossmann 2021</a>)</span>.</p>
+</section>
+<section id="avoid-ambiguous-evidence" class="level4">
+<h4 class="anchored" data-anchor-id="avoid-ambiguous-evidence"><em>Avoid ambiguous evidence</em></h4>
+<p>Every good detective bases their investigation around a set of clues—pieces of evidence that indicate where to look for more information. Detectives need that additional information in order to discriminate between rival explanations, to eliminate suspects from their list, and focus their investigation on the most likely perpetrator.</p>
+<p>We do a similar thing in social science. Once we have a set of potential explanations for the phenomenon of interest, we need to collect discriminating evidence that we help us adjudicate between them. Data collection is one of the most time consuming parts of the research workflow. Luckily, inference to the best explanation makes such a task more productive by helping us avoid wasting our time examining ambiguous evidence.</p>
+<p>What do I mean by “ambiguous evidence”? To illustrate, let’s return to our detective example. Say that Sherlock Holmes is investigating a burglary, and he has a list of three suspects. He spends the first day of the investigation going around town to verify their whereabouts the night before. As it turns out, all three were in fact in town during the evening in question. So, what has Holmes learned from his day-long effort? Very little. As a piece of evidence, “being in town the night of the burglary” fails to discriminate between the suspects. They all have that in common. Indeed, they share that fact with everyone else that was in town that night too.</p>
+<p>To apply the lesson to social science, think again about the puzzle of populism. In the cognitive bias example above, we said that finding a strong positive relationship between income inequality and populists’ vote share was insufficient on its own for claiming that economic grievance is the best explanation for the rise of populism. We pointed to the fact that income inequality is likely to be highest in urban areas, which also tend to have large immigrant populations, so we’re left in the dark regarding what explanatory power, if any, the sociocultural explanation may have.</p>
+<p>Our rival explanations orient us toward collecting evidence that we’d expect to find if the economic explanation was true but would be surprised to find if sociocultural explanation was true.</p>
+</section>
+</section>
+</section>
+<section id="the-research-project-workflow" class="level2" data-number="1.4">
+<h2 data-number="1.4" class="anchored" data-anchor-id="the-research-project-workflow"><span class="header-section-number">1.4</span> The research project workflow</h2>
+<p>Let’s wrap up our tour of the big picture by taking a bird’s eye view of this semester’s research project as a whole. <a href="#fig-workflow" class="quarto-xref">Figure&nbsp;<span>1.5</span></a> displays a diagram representing the research workflow, starting and ending with the state of existing knowledge.</p>
+<div id="fig-workflow" class="fig-workflow quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-workflow-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="research_workflow.png" class="fig-workflow img-fluid quarto-figure quarto-figure-center figure-img" style="width:11in">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-workflow-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1.5: The research workflow
+</figcaption>
+</figure>
+</div>
+<p>There’s a lot going on in this diagram, so let’s explain it piece by piece. The blue-shaded bubbles represent distinct stages of the research process. The solid arrows trace a clockwise workflow from <strong>topic</strong> in the top-right corner to <strong>findings and implications</strong> near the top-left. The dashed arrows trace a counter-clockwise workflow back through the stages. This is meant to capture that although the workflow looks chronological, real-world research typically iterates back and forth between stages, recursively revising and refining previous stages as we move forward to new ones.</p>
+<p>There are also two red-shaded deliverables that are spun out of the workflow at various points. A formal <strong>research proposal</strong> is expected around the midpoint in the semester and a polished <strong>research paper</strong> is expected at the end.</p>
+<p>As the semester proceeds, we’ll spend significant time unpacking each and every one of these stages as you move your project through the research workflow. I’ll also clarify precisely what is expected in the research proposal and paper. The chapters that follow do precisely that. For now, to get a better sense of the big picture, let’s take a brief tour through the workflow.</p>
+<p><strong><em><code>Existing knowledge</code></em></strong></p>
+<p>All research projects begin and end with the state of existing knowledge. We draw from it when we learn about a subject that interests us, and we contribute to it when we communicate our research findings to audiences and stakeholders. As researchers, our intention is to extend the frontiers of knowledge, even if only modestly, leaving the field in a better place than when we found it.</p>
+<p><strong><em><code>Topic, problem/puzzle, question</code></em></strong></p>
+<p>While existing knowledge typically plays an implicit, background role, in the formation of research projects, specific topics, problems, puzzles, or questions are usually top of mind in the formation of research projects.</p>
+<p><strong><em><code>Join the conversation</code></em></strong></p>
+<p><strong><em><code>Theory and hypotheses</code></em></strong></p>
+<p><strong><em><code>Research design</code></em></strong></p>
+<p><strong><em><code>Data collection and analysis</code></em></strong></p>
+<p><strong><em><code>Findings and implications</code></em></strong></p>
+<section id="inference-is-the-goal" class="level3">
+<h3 class="anchored" data-anchor-id="inference-is-the-goal">Inference is the goal</h3>
+<p>There’s a common misconception among new students in the social sciences that they will find a single correct answer to their research question—something along the lines of, say, <span class="math inline">\(2 + 2 = 4\)</span>.</p>
+<p>Inference is simply the act of making claims that go beyond the particular evidence examined <span class="citation" data-cites="KKV">(<a href="references.html#ref-KKV" role="doc-biblioref">King et al. 1994</a>)</span>.</p>
+<p>But if by <em>answer</em> we mean a transparently reasoned, evidence-based conclusion that is amenable to future updating based on new evidence, then let me reassure you that you’re ready for the challenge that awaits you.</p>
+<p>The process by which we arrive at this transparently reasoned, evidence-based, and always-tentative conclusion goes by the name <strong>inference</strong>, and it is the basis of all social science research. According to its <a href="https://en.wikipedia.org/wiki/Inference">Wikipedia entry</a>, inference is simply a “conclusion reached on the basis of evidence and reasoning.” Why must we infer?</p>
+<p>We make so many inferences in our everyday lives, we may not even consciously notice. When we wake up and find that the sidewalk is wet, we infer that it rained overnight. When you see a friend sitting down to have a snack, you may infer that they’re hungry. If you find your roommate packing a bag, you might infer that they are going away for the weekend.</p>
+<p>In the social sciences, we make inferences about other kinds of phenomena, but the logic is the same. After observing a polity’s electoral process, we may classify the regime as either a democracy or an autocracy. To survey public opinion, we typically rely on a representative sample from which we generalize about the whole population. If the economy enters a recession, we may expect an incumbent’s chances of reelection to diminish.</p>
+<p>These examples of inference from both everyday life and the social sciences have something in common: they all occur under conditions of <strong>uncertainty</strong>. This is why social science research is fundamentally unlike concluding that <span class="math inline">\(2 + 2 = 4\)</span>. The simple definition of the equation’s symbols provides us with complete information and makes the conclusion logically inescapable. We can claim that <span class="math inline">\(2 + 2 = 4\)</span> with absolute certainty.</p>
+<p>When it comes to social science, we not so lucky. Typically, we operate with incomplete information and must form our conclusions carefully to account for uncertainty. We may think that it was the economic recession that doomed the president’s reelection, but perhaps it was a corruption scandal that was top of mind for voters that year. Needing to do our research under conditions of uncertainty makes social science challenging but also interesting and ultimately rewarding.</p>
+</section>
+<section id="inference-and-explanation" class="level3">
+<h3 class="anchored" data-anchor-id="inference-and-explanation">Inference and explanation</h3>
+<p>The centrality of inference to social science research may feel a little deflating at first. It is natural to want to find clear and definite answers to questions of widespread public concern and political importance. Does the ubiquity of uncertainty mean that we can’t really explain anything?</p>
+<p>Why do much uncertainty? There are multiple sources of uncertainty when conducting research on the social and political world <span class="citation" data-cites="gailmardStatisticalModelingInference2014">(<a href="references.html#ref-gailmardStatisticalModelingInference2014" role="doc-biblioref">Gailmard 2014, 73</a>)</span>.</p>
+</section>
+<section id="a-pluralist-methodology" class="level3">
+<h3 class="anchored" data-anchor-id="a-pluralist-methodology">A pluralist methodology</h3>
+<p>I’ll conclude this introductory chapter with a brief statement intended to clarify the methodological underpinnings of the research advice contained in this book. Social science can be thought of as a mansion with many rooms,</p>
+<p>Philosophically, this book embraces what’s called methodological pluralism. This particular view of social science follows from the principles laid out above. If we as researchers operate under conditions of uncertainty and our inferences are always tentative and subject to revision, then it’s best that we take a broadly inclusive approach to social science research. Gatekeeping—that is, judging what is and <em>is not</em> legitimate social science—can be a harmful and unproductive practice, and is</p>
+<p>This is not the same as saying that social science is a field in which “anything goes.” As we’ve established, there are standards that must be met.</p>
+</section>
+</section>
+<section id="conclusion" class="level2" data-number="1.5">
+<h2 data-number="1.5" class="anchored" data-anchor-id="conclusion"><span class="header-section-number">1.5</span> Conclusion</h2>
+<p>Be a mindful learner</p>
+
+
+<div id="refs" class="references csl-bib-body hanging-indent" role="list" style="display: none">
+<div id="ref-bermanCausesPopulismWest2021" class="csl-entry" role="listitem">
+Berman, Sheri. 2021. <span>“The Causes of Populism in the West.”</span> <em>Annual Review of Political Science</em> 24 (Volume 24, 2021): 71–88. <a href="https://doi.org/10.1146/annurev-polisci-041719-102503">https://doi.org/10.1146/annurev-polisci-041719-102503</a>.
+</div>
+<div id="ref-dowdingExplanatoryPluralismPolitical2025" class="csl-entry" role="listitem">
+Dowding, Keith, and Charles Miller. 2025. <span>“Explanatory Pluralism in Political Science.”</span> <em>Journal of Theoretical Politics</em>, December 19, 09516298251403391. <a href="https://doi.org/10.1177/09516298251403391">https://doi.org/10.1177/09516298251403391</a>.
+</div>
+<div id="ref-gailmardStatisticalModelingInference2014" class="csl-entry" role="listitem">
+Gailmard, Sean. 2014. <em>Statistical Modeling and Inference for Social Science:</em> 1st ed. Cambridge University Press. <a href="https://doi.org/10.1017/CBO9781139047449">https://doi.org/10.1017/CBO9781139047449</a>.
+</div>
+<div id="ref-grossmannHowSocialScience2021" class="csl-entry" role="listitem">
+Grossmann, Matthew. 2021. <em>How Social Science Got Better: Overcoming Bias with More Evidence, Diversity, and Self-Reflection</em>. Oxford University Press.
+</div>
+<div id="ref-kahnemanThinkingFastSlow2013" class="csl-entry" role="listitem">
+Kahneman, Daniel. 2013. <em>Thinking, fast and slow</em>. First paperback edition. Farrar, Straus; Giroux.
+</div>
+<div id="ref-KKV" class="csl-entry" role="listitem">
+King, Gary, Robert O. Keohane, and Sidney Verba. 1994. <em>Designing social inquiry: scientific inference in qualitative research</em>. Princeton University Press.
+</div>
+<div id="ref-spirlingWhatGoodRegression2025" class="csl-entry" role="listitem">
+Spirling, Arthur, and Brandon M. Stewart. 2025. <span>“What Good Is a Regression? Inference to the Best Explanation and the Practice of Political Science Research.”</span> <em>The Journal of Politics</em> 87 (4): 1587–99. <a href="https://doi.org/10.1086/734280">https://doi.org/10.1086/734280</a>.
+</div>
+<div id="ref-toshkovResearchDesignPolitical2025" class="csl-entry" role="listitem">
+Toshkov, Dimiter. 2025. <em>Research design in political science</em>. Reprint. Political analysis. Bloomsbury Academic.
+</div>
+</div>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./index.html" class="pagination-link" aria-label="Welcome!">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Welcome!</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./topic_to_question.html" class="pagination-link" aria-label="From Topic to Question">
+        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">From Topic to Question</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+<p>MHC in DC Indepedent Study</p>
+</div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>
