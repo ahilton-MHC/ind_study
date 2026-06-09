@@ -4,11 +4,79 @@ format: html
 editor: visual
 ---
 
-## **Common Data Resources in Political Science**
+## Weighing Evidence
+
+```{r}
+#| echo: false
+#| fig-width: 6
+#| fig-height: 6
+library(ggplot2)
+library(ggrepel)
+
+n <- 6
+theta <- seq(pi / 2, 0, length.out = n)
+
+df <- data.frame(
+  x = cos(theta) * 0.8,
+  y = sin(theta) * 0.8,
+  extremity = abs(theta - pi / 4)
+)
+
+quads <- data.frame(
+  xmin  = c(-0.1, 0.4,  -0.1, 0.4),
+  xmax  = c(0.4,  1.1,  0.4,  1.1),
+  ymin  = c(0.4,  0.4,  -0.1, -0.1),
+  ymax  = c(1.1,  1.1,  0.4,  0.4),
+  label = c("decisive", "ambiguous", "irrelevant", "decisive")
+)
+
+ggplot(df, aes(x = x, y = y, size = extremity, color = extremity)) +
+  geom_rect(
+    data = quads, inherit.aes = FALSE,
+    aes(xmin = xmin, xmax = xmax, ymin = ymin, ymax = ymax, fill = label)
+  ) +
+  scale_fill_manual(
+    values = c("decisive" = "#ddeaf7", "ambiguous" = "#fde0c5", "irrelevant" = "#e8daf0"),
+    name = NULL
+  ) +
+  geom_vline(xintercept = 0.4, color = "gray80") +
+  geom_hline(yintercept = 0.4, color = "gray80") +
+  geom_point() +
+  geom_text_repel(
+    aes(label = paste0("E[", seq_len(n), "]")),
+    parse = TRUE, size = 4, color = "gray30",
+    box.padding = 0.3, point.padding = 0.8,
+    force = 3, min.segment.length = Inf, seed = 4821,
+    nudge_x = -0.02 - 0.08 * (df$extremity / max(df$extremity)) - c(0.04, 0.02, 0, 0, 0.02, 0.04),
+    nudge_y = -0.02 - 0.08 * (df$extremity / max(df$extremity)) - c(0.04, 0.02, 0, 0, 0.02, 0.04),
+    show.legend = FALSE
+  ) +
+  scale_size_continuous(range = c(4, 14)) +
+  scale_color_gradient(
+    low = "#89c4e1", high = "#08306b",
+    name = "weight of evidence",
+    breaks = range(df$extremity),
+    labels = c("low", "high")
+  ) +
+  guides(size = "none", color = "none",
+    fill = guide_legend(position = "bottom")
+  ) +
+  labs(x = "Compatibility with Theory A", y = "Compatibility with Theory B") +
+  coord_fixed(xlim = c(-0.05, 0.95), ylim = c(-0.05, 0.95)) +
+  theme_minimal(base_size = 14) +
+  theme(
+    axis.text = element_blank(),
+    axis.ticks = element_blank(),
+    panel.grid = element_blank(),
+    axis.line = element_line()
+  )
+```
+
+## Common Data Resources in Political Science
 
 This section (borrowed from @pownerEmpiricalResearchWriting2026) contains an extensive collection of dataset links. If you can imagine it, there’s a VERY good chance someone else has already collected data on it, and one of these sites has a link to it. If you’re struggling to find appropriate data, let me know.
 
-### **University Libraries**
+### University Libraries
 
 <https://guides.libraries.emory.edu/main/Data_Services/govinstlinks> (Also their US States page)
 
@@ -16,7 +84,7 @@ This section (borrowed from @pownerEmpiricalResearchWriting2026) contains an ext
 
 <https://libguides.princeton.edu/politics/data> – good collection of data for beginners
 
-### **Cross-Subfield**
+### Cross-Subfield
 
 [www.poliscidata.com](http://www.poliscidata.com/) Barry Edwards has an INCREDIBLE collection of data sets from across the field, organized by subfield and topic. If you know what you want, this is the place to go.
 
@@ -26,7 +94,7 @@ This section (borrowed from @pownerEmpiricalResearchWriting2026) contains an ext
 
 Dataset with Political Datasets <https://github.com/erikgahner/PolData> Databases catalogued by content and links. Collection of cross-national election studies, cabinet data, political institutions, constitutions, parties & politicians, governance, economics, and more
 
-### **American Politics**
+### American Politics
 
 <https://electionstudies.org/> – The American National Election Studies datasets are the gold standard for US political behavior, with 75 years of data and nearly 10,000 citations. Most people start with the question search tool. Much data available for political psychology, race & politics, and attitudes towards public figures, groups and issues.
 
@@ -40,7 +108,7 @@ Correlates of State Policy <https://ippsr.msu.edu/public-policy/correlates-state
 
 State Ideology Data: <https://rcfording.wordpress.com/state-ideology-data/>
 
-### **Non-US and Comparative Politics**
+### Non-US and Comparative Politics
 
 Varieties of Democracy (V-Dem) <https://www.v-dem.net/> WAY more than just democracy – all sorts of political and economic institution data in one place. Often the first stop for building cross-national datasets.
 
@@ -56,7 +124,7 @@ Comparative Study of Electoral Systems <https://cses.org/> National electoral st
 
 National Elections Across Democracy and Autocracy (NELDA) <http://nelda.co/> Data organized by election round for all recognized countries in the world. Data access by (very simple) request.
 
-### **International Relations**
+### International Relations
 
 THOUSANDS of specialized IR datasets exist. [https://github.com/erikgahner/PolData and Poliscidata.com](https://github.com/erikgahner/PolData%20and%20Poliscidata.com) catalog many titles thematically.
 
